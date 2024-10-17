@@ -1,0 +1,147 @@
+.container {
+    max-width: 1280px;
+    .row {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+
+        .column {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+            border-radius: 10px;
+            gap: 30px;
+            flex-wrap: wrap;
+
+            // &:hover {
+            //     transform: scale(1.2);
+
+            //     // .vapt_box_row {
+            //     //     .vapt_box_column {
+
+            //     //         p {
+            //     //             max-height: 100%;
+            //     //         }
+            //     //     }
+            //     // }
+            // }
+
+            .vapt_box_row {
+                display: flex;
+                box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
+                border-radius: 10px;
+                padding: 20px;
+                max-width: 300px;
+                transition: all 0.3s ease;
+
+                &:hover {
+                    background-color: #F48A00;
+                    color: white;
+
+                    .line {
+                        background-color: white;
+                    }
+
+                    .vapt_box_column {
+
+                        .button_container {
+                            .button {
+
+                                background-color: white;
+
+                                a {
+                                    color: black;
+                                }
+                            }
+                        }
+                    }
+                }
+
+                .vapt_box_column {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    gap: 20px;
+
+                    img {
+                        width: 100%;
+                        height: 150px;
+                        object-fit: cover;
+                        border-radius: 10px;
+                    }
+
+                    h5 {
+                        font-weight: 600;
+                    }
+
+                    p {
+                        overflow-y: auto;
+                        max-height: 100px;
+                    }
+
+                    .line {
+                        height: 1px;
+                        width: 100%;
+                        background-color: black;
+                    }
+
+                    .vapt_info {
+                        display: flex;
+                        justify-content: space-around;
+                        gap: 15px;
+
+                        span {
+                            display: flex;
+                            gap: 10px;
+                        }
+                    }
+
+                    .button_container {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+
+                        .button {
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            background-color: #f48a00;
+                            color: white;
+                            padding: 10px 20px;
+                            border: none;
+                            border-radius: 10px;
+                            cursor: pointer;
+                            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+                            transition: background-color 0.3s ease;
+                            text-decoration: none;
+
+                            a {
+                                display: flex;
+                                gap: 10px;
+                                justify-content: center;
+                                align-items: center;
+                                color: white;
+                                text-decoration: none;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.title {
+    color: #333; // Cor neutra para o título
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.text {
+    color: #666; // Texto secundário com um tom mais suave
+    margin-bottom: 20px;
+}

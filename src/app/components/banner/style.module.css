@@ -1,0 +1,46 @@
+.container {
+  display: block;
+  margin-top: 3.5rem;
+}
+.container .row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.container .row .column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  flex: 1;
+  max-width: 500px;
+  gap: 25px;
+}
+.container .row .column h1 {
+  font-size: 50px;
+  text-transform: uppercase;
+}
+.container .row .column h1 span {
+  color: #f48a00;
+}
+.container .row .column p {
+  font-weight: 500;
+}
+.container .row .column .button {
+  display: flex;
+  background-color: #f48a00;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s ease;
+}
+.container .row .column .button:hover {
+  background-color: #f09e33;
+}
+.container .row img {
+  width: 300px;
+  border-radius: 200px;
+}/*# sourceMappingURL=style.module.css.map */
