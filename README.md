@@ -2,6 +2,12 @@
 
 Yummy é um aplicativo de culinária projetado para permitir que os usuários compartilhem, este projeto tem intuito apenas acadêmico, explorem e descubram novas receitas de forma fácil. 
 
+Confira um vídeo do prototipo:
+
+https://github.com/user-attachments/assets/ed0bd15e-f4f6-4bb2-8f05-521f4596c08a
+
+
+
 ## Funcionalidades
 
 - **Autenticação Segura**: Página protegida por autenticação segura.
